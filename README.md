@@ -213,3 +213,6 @@ See also [Network checker](docs/netcheck.md).
 
 CI/end-to-end tests sponsored by Google (GCE)
 See the [test matrix](docs/test_cases.md) for details.
+
+
+kubeadm join --config /etc/kubernetes/kubeadm-client.conf --ignore-preflight-errors=DirAvailable--etc-kubernetes-manifests
